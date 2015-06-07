@@ -7,4 +7,7 @@ Pour transformer le fichier xml avec oxygen Editor
 - choisir Saxon HE 
 - dans l'onglet 'output', cliquer sur le bouton radio 'prompt for file'
 
+Important : les feuilles de styles d'EpiDoc doivent être dans un dossier example-p5-xslt
+pour mettre à jour le contenu du dossier avec les dernières mises à jour d'EpiDoc, c'est ici : https://sourceforge.net/p/epidoc/wiki/Stylesheets/
+
 Ensuite créer un fichier avec l'extension .csv qui sera importé dans timeMapper...
