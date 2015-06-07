@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?oxygen RNGSchema="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" type="xml" ?>
+<?xml-stylesheet type="text/xsl" href="epidoc2csvForTimeMapper.xsl"?>
+<!-- ******************************************************************************
+        Author: Emmanuelle Morlock
+        
+        Object: test data from the "Mur des Theores"
+        Visible words workshop, may 2015
+        
+        Requirements:
+        - datafile : tranformation file : epidoc2csvForTimeMapper.xsl
+        
+        **Change Log
+        2015-05-19 EM Visible Words workshop demo
+        2015-06-07 GitHub deposit
+        
+        ******************************************************************************   -->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>urn:cts:pdlepi:vwthasos.theores.TempTexts-en-2015-6</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Perseus Project</authority>
+                <idno type="urn:cts">urn_cts_pdlepi_vwthasos.theores.TempTexts-en-2015-6</idno>
+                <availability>
+                    <p>This work is licensed under a <ref type="license" target="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons
+                            Attribution-ShareAlike 3.0 License</ref>.</p>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <p/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+                <language ident="grc">Ancient Greek</language>
+                <language ident="la">Latin</language>
+                <language ident="fr">French</language>
+                <language ident="de">German</language>
+                <language ident="grc-Latn">Ancient Greek in Latin script</language>
+                <language ident="la-Grek">Latin in Greek script</language>
+                <language ident="cop">Coptic</language>
+            </langUsage>
+            <particDesc>
+                <listPerson>
+                    <person n="1-1" xml:id="V1-39232" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nNe1stis">Νέστις</persName>
+                        <birth notAfter="-0475" notBefore="-0525">
+                            <placeName ref="pleiades:501635" key="LGPN_13610">Thasos</placeName>
+                        </birth>
+                        <floruit>vi/v BC</floruit>
+                        <state key="#relationship">
+                            <label>f. <persName type="relationship" xml:lang="grc" nymRef="#nLeago1rhs">Λεαγόρης</persName>
+                            </label>
+                        </state>
+                        <bibl corresp="79465">
+                            <title>IG</title> XII (8) 275, 14</bibl>
+                        <bibl rend="equals">
+                            <title>BCH</title> Suppl. 5 (1979) p. 116 II</bibl>
+                    </person>
+                    <person n="1-12" xml:id="V1-39242" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nXei3nis">Ξεῖνις</persName>
+                        <birth notAfter="-0475" notBefore="-0525">
+                            <placeName ref="pleiades:501635" key="LGPN_13610">Thasos</placeName>
+                        </birth>
+                        <floruit>vi/v BC</floruit>
+                        <state key="#relationship">
+                            <label>f. <persName type="relationship" xml:lang="grc" nymRef="#nDhmofw3n">Δημοφῶν</persName>
+                            </label>
+                        </state>
+                        <bibl corresp="79465">
+                            <title>IG</title> XII (8) 275, 19</bibl>
+                        <bibl rend="equals">
+                            <title>BCH</title> Suppl. 5 (1979) p. 116 II</bibl>
+                    </person>
+                    <person n="1-20" xml:id="V1-39243" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nDhmofw3n">Δημοφῶν</persName>
+                        <birth notAfter="-0475" notBefore="-0525">
+                            <placeName ref="pleiades:501635" key="LGPN_13610">Thasos</placeName>
+                        </birth>
+                        <floruit>vi/v BC</floruit>
+                        <state key="#relationship">
+                            <label>s. <persName type="relationship" xml:lang="grc" nymRef="#nXei3nis">Ξεῖνις</persName>
+                            </label>
+                        </state>
+                        <bibl corresp="79465">
+                            <title>IG</title> XII (8) 275, 19</bibl>
+                        <bibl rend="equals">
+                            <title>BCH</title> Suppl. 5 (1979) p. 116 II</bibl>
+                    </person>
+                    <person n="1-1" xml:id="V1-39234" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nA1skutos">῎Ασκυτος</persName>
+                        <birth notAfter="-0475" notBefore="-0525">
+                            <placeName ref="pleiades:501635" key="LGPN_13610">Thasos</placeName>
+                        </birth>
+                        <floruit>vi/v BC</floruit>
+                        <state key="#relationship">
+                            <label>f. <persName type="relationship" xml:lang="grc" nymRef="#nPe1talos">Πέταλος</persName>
+                            </label>
+                        </state>
+                        <bibl corresp="79465">
+                            <title>IG</title> XII (8) 275, 15</bibl>
+                        <bibl rend="equals">
+                            <title>BCH</title> Suppl. 5 (1979) p. 116 II</bibl>
+                    </person>
+                    <person n="1-2" xml:id="V1-3462" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nFano1lews">Φανόλεως</persName>
+                        <birth notAfter="-0275" notBefore="-0325">
+                            <placeName ref="pleiades:570314" key="LGPN_12600">Ioulis</placeName>
+                        </birth>
+                        <floruit>iv/iii BC</floruit>
+                        <bibl copyOf="77845">
+                            <title>IG</title> XII (5) 609 II, 86 + p. 333</bibl>
+                    </person>
+                    <person n="1-2" xml:id="V1-39240" xmlns="http://www.tei-c.org/ns/1.0" sex="1">
+                        <persName type="main" nymRef="#nMi3kos">Μῖκος</persName>
+                        <birth notAfter="-0475" notBefore="-0525">
+                            <placeName ref="pleiades:501635" key="LGPN_13610">Thasos</placeName>
+                        </birth>
+                        <floruit>vi/v BC</floruit>
+                        <state key="#relationship">
+                            <label>f. <persName type="relationship" xml:lang="grc" nymRef="#nFa1lwn">Φάλων</persName>
+                            </label>
+                        </state>
+                        <bibl corresp="79465">
+                            <title>IG</title> XII (8) 275, 18</bibl>
+                        <bibl rend="equals">
+                            <title>BCH</title> Suppl. 5 (1979) p. 116 II</bibl>
+                    </person>
+                </listPerson>
+            </particDesc>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-05-16T08:04:42+00:00" who="SoSOL">Automated creation from template</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:lang="grc" type="edition">
+                <div type="textpart" subtype="column" n="2">
+                    <ab>
+                        <milestone unit="block"/>
+                        <list>
+                            <head>iodeetheo</head>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2153,0.0644,0.0990,0.0258">
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2153,0.0900,0.0946,0.0295">
+                                <list>
+                                    <item n="4">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <item n="5">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <item n="6">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2172,0.1188,0.0911,0.0261" n="3">
+                                <list>
+                                    <item n="7">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <item n="8">
+                                        <lb/>
+                                        <gap reason="lost"/>
+                                    </item>
+                                    <milestone unit="block"/>
+                                    <item n="9">
+                                        <lb/>
+                                        <persName>Πουλύαναξ <persName>Θρασ<milestone unit="block"/><gap reason="lost" unit="character" min="2" max="7"
+                                                /></persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2167,0.1459,0.0809,0.0286" n="4">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Ἱπποκράτης <persName>Μυρπ<gap reason="lost" unit="character" min="2" max="7"/></persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName ref="#V1-39232">Λεαγόρης <persName>Νέστιο<supplied reason="lost" cert="high"
+                                            >ς</supplied></persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName ref="#V1-39234">Πέταλος <persName>Ἀσκύτ<supplied reason="lost" cert="high"
+                                            >ου</supplied></persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2156,0.1748,0.0856,0.0246" n="5">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Ἀριστόπολις <persName>Κρα<gap reason="lost" unit="character" min="2" max="7"/></persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName ref="#V1-3462">Πρηξίπολις <persName>Φανόλ<supplied reason="lost" cert="high"
+                                                >εω</supplied></persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Φάλων <persName ref="#V1-39240">Μίκου</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2148,0.1997,0.0869,0.0289" n="6">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName ref="#V1-39243">Δημοφῶν <persName ref="#V1-39242">Ξεῖνιος</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Ἰφικλῆς <persName>Λεωφάνε<supplied reason="lost">υς</supplied></persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Μέγων <persName>Περιάνδρ<supplied reason="lost">ου</supplied></persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2150,0.2292,0.0878,0.0322" n="7">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Γόργος <persName>Ἐχεκρά<supplied reason="lost">τευς</supplied></persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Ὕψιτος <persName>Φανόλεω</persName></persName>
+                                    </item>
+                                    <milestone unit="block"/>
+                                    <item n="3">
+                                        <lb/>
+                                        <gap reason="lost" unit="line"/>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2131,0.2623,0.0927,0.0280" n="8">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>
+                                            <supplied reason="lost">Γόργος </supplied>
+                                            <persName><supplied reason="lost">Ἀρ</supplied>ισ<supplied reason="lost">τομήδου</supplied></persName>
+                                        </persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Στησαγόρης <persName>Ἀρισ<gap reason="lost" unit="character" min="1" max="4"/></persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Ξεινήρης <persName>Ἀριστοκ<supplied reason="lost">λέος</supplied></persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2137,0.2906,0.0886,0.0292" n="9">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Ἐξάλλαξις <persName>Σίμο<supplied reason="lost">υ</supplied></persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Δημῶναξ <persName>Πυθόλε<supplied reason="lost">ω</supplied></persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Φαίηλος <persName>Γόργου</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2134,0.3179,0.0946,0.0319" n="10">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Δημοκράτης <persName>Νύμφιος</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Χαιτίδης <persName>Ἀριστάρχου</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Δηΐλλεος <persName>Βραττίδεω</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2142,0.3480,0.0941,0.0319" n="11">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Πασίης <persName>Κλεοκρίτου</persName></persName>
+                                    </item>
+                                    <milestone unit="block"/>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Πυ<supplied reason="lost">ρ</supplied>ρίης <persName>Εὐφρίλλου</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Πρηξαγόρης <persName>Τετρίχου</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2128,0.3778,0.1086,0.0328" n="12">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Κλεανακτίδης <persName>Ἀντιχαρίνου</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Πρηξίπολις <persName>Πρυλίου</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Φάνιππος <persName>Βραττίδεω</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2115,0.4082,0.1045,0.0316" n="13">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Ἀριστοκλῆς <persName>Πρηξαγόρεω</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Διότιμος <persName>Εὐφρίλλου</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Ἀριστοφῶν <persName>Ὑψοκλέος</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2112,0.4380,0.1034,0.0316" n="14">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Ἀρίζηλος <persName>Χαρίλλου</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Ποσίδειος <persName>Πρόκεω</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Μαχέων <persName>Πολυάλθεος</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2112,0.4678,0.0968,0.0322" n="15">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>Μικαλλῆς <persName>Φιλιστίδεω</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>Ἀρχέπολις <persName>Πυθόλεω</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>Λάλλης <persName>Ἀρτυσίλεω</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <milestone unit="block"/>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2106,0.4997,0.1083,0.0280" n="16">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="7"/>ος <persName>Αὐτονίκου</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="5"/>ς <persName>Παγκλέος</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName>
+                                            <gap reason="lost" unit="character" min="1" max="5"/>
+                                            <persName><supplied reason="lost">Εὐφρ</supplied>ίλλου</persName>
+                                        </persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2093,0.5271,0.1086,0.0301" n="17">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>
+                                            <gap reason="lost" unit="character" min="1" max="6"/>
+                                            <persName>Δημ<gap reason="lost" unit="character" min="1" max="9"/></persName>
+                                        </persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="5"/>γορης <persName>Φανόλεω</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="5"/>ρατης <persName>Θυωνίδεω</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2104,0.5562,0.1081,0.0304" n="18">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName>
+                                            <gap reason="lost" unit="character" min="1" max="5"/>
+                                            <unclear>ς</unclear>
+                                            <persName>Μέγωνος</persName>
+                                        </persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="5"/>ος <persName>Ἀριστοφάνεος</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="7"/>ρος <persName>Πολυαινέτου</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2106,0.5851,0.1108,0.0286" n="19">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="5"/>μης <persName>Σιμαλίωνος</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="6"/>δρος
+                                            <persName>Ἀριστοκλέος</persName></persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="7"/>αχος <persName>Λεωφάνευς</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <item ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2095,0.6116,0.1070,0.0301" n="20">
+                                <lb/>
+                                <list>
+                                    <item n="1">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="7"/>ος <persName>Κλεάριος</persName></persName>
+                                    </item>
+                                    <item n="2">
+                                        <lb/>
+                                        <persName>
+                                            <gap reason="lost" unit="character" min="1" max="6"/>
+                                            <persName>Χειροβούλου</persName>
+                                        </persName>
+                                    </item>
+                                    <item n="3">
+                                        <lb/>
+                                        <persName><gap reason="lost" unit="character" min="1" max="6"/>τρατος <persName>Ἀττάλεω</persName></persName>
+                                    </item>
+                                </list>
+                            </item>
+                            <milestone unit="block"/>
+                            <item n="21" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2101,0.6413,0.1037,0.0316">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="22" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2112,0.6739,0.1001,0.0292">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="23" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2101,0.7030,0.1007,0.0316">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="24" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2098,0.7350,0.0987,0.0304">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="25" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2098,0.7653,0.0976,0.0331">
+                                <lb/>
+                                <gap reason="lost"/>
+                                <milestone unit="block"/>
+                            </item>
+                            <item n="26" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2104,0.7991,0.0949,0.0271">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="27" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2106,0.8267,0.0927,0.0301">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="28" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2106,0.8565,0.0927,0.0280">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                            <item n="29" ana="#triade" facs="urn:cite:perseus:vwimg.2v0Y62lekYY@0.2112,0.8842,0.0913,0.0295">
+                                <lb/>
+                                <gap reason="lost"/>
+                            </item>
+                        </list>
+                    </ab>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
