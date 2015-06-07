@@ -10,4 +10,4 @@ Pour transformer le fichier xml avec oxygen Editor
 Important : les feuilles de styles d'EpiDoc doivent être dans un dossier example-p5-xslt
 pour mettre à jour le contenu du dossier avec les dernières mises à jour d'EpiDoc, c'est ici : https://sourceforge.net/p/epidoc/wiki/Stylesheets/
 
-Ensuite créer un fichier avec l'extension .csv qui sera importé dans timeMapper...
+Ensuite créer un fichier avec l'extension .csv qui sera importé dans timeMapper... (exemple : theores-col2.csv)
